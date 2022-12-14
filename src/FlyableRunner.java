@@ -1,7 +1,7 @@
 public class FlyableRunner {
 
-
-    public static void main(String[] args) {
+    public static void main(String[] args) { //
+        //This is how interfaces work
         Flyable[] flyingObjects = {new Bird(), new Aeroplane()};
 
         for(Flyable object: flyingObjects){
